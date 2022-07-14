@@ -28,6 +28,7 @@ public class GameApp {
 					System.out.println("Sorry the correct answer was: "+ answer);
 				}
 			}
+			fileInput.close();
 			
 			
 			
@@ -36,6 +37,7 @@ public class GameApp {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		input.close();
 
 	}
 
